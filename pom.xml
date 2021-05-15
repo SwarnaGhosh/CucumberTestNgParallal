@@ -194,7 +194,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>AmazonShoppingUIAssesment</projectName>  <!-- Replace with project name -->
+                            <projectName>MakeMyTripScenarios</projectName>  <!-- Replace with project name -->
                             <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
                             <cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
                             <buildNumber>1</buildNumber>
