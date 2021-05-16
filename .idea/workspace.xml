@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="85c407a3-d63f-49bd-a1e8-40d404528903" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/actions/MakeMyTripHomePageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/MakeMyTripHomePageActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/locators/MakeMyTripBookingPageLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/locators/MakeMyTripBookingPageLocator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Driver/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Driver/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Driver/phantomjs.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/MakeMyTripStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/MakeMyTripStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/WebHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/WebHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/TestScripts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/TestScripts.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.JSON" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/TestScripts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/TestScripts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/MakeMyTripStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/MakeMyTripStepDef.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +42,18 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Demo_POC\Assesment_UI\src\test\Driver" />
-      <recent name="C:\Demo_POC\Assesment_UI\src\test" />
-      <recent name="C:\Demo_POC\Assesment_UI" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Demo_POC\Assesment_UI\src\test\java" />
+      <recent name="C:\Demo_POC\Assesment_UI\src\test\resources\Feature" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepdef" />
       <recent name="util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Demo_POC\Assesment_UI\src\test\java" />
-      <recent name="C:\Demo_POC\Assesment_UI\src\test\resources\Feature" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Demo_POC\Assesment_UI\src\test\Driver" />
+      <recent name="C:\Demo_POC\Assesment_UI\src\test" />
+      <recent name="C:\Demo_POC\Assesment_UI" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,22 +137,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621013343834" />
-    <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1621152421794">
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1621154113019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621152421794" />
-    <state width="1877" height="309" key="GridCell.Tab.0.center" timestamp="1621152421794">
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621154113019" />
+    <state width="1877" height="309" key="GridCell.Tab.0.center" timestamp="1621154113019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621152421794" />
-    <state width="1877" height="309" key="GridCell.Tab.0.left" timestamp="1621152421794">
+    <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621154113019" />
+    <state width="1877" height="309" key="GridCell.Tab.0.left" timestamp="1621154113019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621152421794" />
-    <state width="1877" height="309" key="GridCell.Tab.0.right" timestamp="1621152421794">
+    <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621154113019" />
+    <state width="1877" height="309" key="GridCell.Tab.0.right" timestamp="1621154113019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621152421794" />
+    <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621154113019" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1621111432384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

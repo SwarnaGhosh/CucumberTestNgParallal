@@ -12,12 +12,12 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import util.WebHelper;
 
 
 
 
-@CucumberOptions(features = "src/test/resources/Feature/", glue = { "stepdef" },tags = {"@1"},
+
+@CucumberOptions(features = "src/test/resources/Feature/", glue = { "stepdef" },tags = {"@parralal"},
         plugin = { "pretty",
                 "html:target/cucumber-reports/cucumber-pretty", "json:target/cucumber-reports/CucumberTestReport.JSON" },monochrome = true)
 

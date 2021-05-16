@@ -28,7 +28,6 @@ public class MakeMyTripStepDef {
 
         webHelper = new WebHelper();
         driver = webHelper.getBrowser(browser);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("https://www.makemytrip.com/");
 
@@ -78,6 +77,11 @@ public class MakeMyTripStepDef {
     public void user_select_a_date() throws InterruptedException {
 
       makeMyTripHomePageActions.selectDate();
+    }
+
+    @And("User close the browser")
+    public void user_close_the_browser(){
+        driver.quit();
     }
 
 }
