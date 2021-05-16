@@ -10,6 +10,8 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import util.WebHelper;
 
+import java.util.concurrent.TimeUnit;
+
 
 public class MakeMyTripStepDef {
 
@@ -19,11 +21,14 @@ public class MakeMyTripStepDef {
 
     private MakeMyTripBookingPageActions makeMyTripBookingPageActions;
 
+    private WebHelper webHelper;
+
     @Given("^User open the url in browser \"([^\"]*)\"$")
     public void setup(String browser) throws ClassNotFoundException {
 
-
-        driver = WebHelper.getBrowser(browser);
+        webHelper = new WebHelper();
+        driver = webHelper.getBrowser(browser);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("https://www.makemytrip.com/");
 

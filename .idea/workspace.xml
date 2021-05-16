@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85c407a3-d63f-49bd-a1e8-40d404528903" name="Default Changelist" comment="" />
+    <list default="true" id="85c407a3-d63f-49bd-a1e8-40d404528903" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/actions/MakeMyTripHomePageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/MakeMyTripHomePageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/locators/MakeMyTripBookingPageLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/locators/MakeMyTripBookingPageLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/MakeMyTripStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/MakeMyTripStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/WebHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/WebHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/TestScripts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/TestScripts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.JSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +121,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="686" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621151205173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1621151205173" />
     <state x="682" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1621010767519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -122,22 +137,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621013343834" />
-    <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1621113711400">
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1621152421794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621113711400" />
-    <state width="1877" height="309" key="GridCell.Tab.0.center" timestamp="1621113711400">
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621152421794" />
+    <state width="1877" height="309" key="GridCell.Tab.0.center" timestamp="1621152421794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621113711400" />
-    <state width="1877" height="309" key="GridCell.Tab.0.left" timestamp="1621113711399">
+    <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621152421794" />
+    <state width="1877" height="309" key="GridCell.Tab.0.left" timestamp="1621152421794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621113711399" />
-    <state width="1877" height="309" key="GridCell.Tab.0.right" timestamp="1621113711400">
+    <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621152421794" />
+    <state width="1877" height="309" key="GridCell.Tab.0.right" timestamp="1621152421794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621113711400" />
+    <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621152421794" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1621111432384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

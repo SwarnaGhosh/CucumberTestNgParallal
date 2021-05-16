@@ -2,6 +2,7 @@ Feature: This Test Suite includes Test Scenarios related to MakeMyTrip
 
 
   @parallal
+  @1
   Scenario: Validate cheapest flight details for indigo with non stop facility(Scenario 2)
     Given User open the url in browser "chrome"
     When User Select from as Bangalore to as Hyderabad
@@ -12,6 +13,7 @@ Feature: This Test Suite includes Test Scenarios related to MakeMyTrip
 
 
   @parallal
+@2
   Scenario: Validate cheapest flight details for indigo with non stop facility_firefox(Scenario 2)
     Given User open the url in browser "firefox"
     When User Select from as Bangalore to as Hyderabad

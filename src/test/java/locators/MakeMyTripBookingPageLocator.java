@@ -19,11 +19,12 @@ public class MakeMyTripBookingPageLocator {
     public List<WebElement> pricelist;
 
 
-    @FindBy(how= How.XPATH,using = "//*[@id=\"root\"]/div/div[2]/div[2]/div/div[1]/div/div[1]/div/label[3]/div/span[2]/span")
+    @FindBy(how= How.XPATH,using = "//*[@class='truncate' and text()='IndiGo']")
     public WebElement indigoFilter;
 
 
-    @FindBy(how= How.XPATH,using = "//*[@id=\"root\"]/div/div[2]/div[2]/div/div[1]/div/div[2]/div/label[4]/div/span[2]/span")
+    @FindBy(how= How.XPATH,using = "//*[@id=\"root\"]/div/div[2]/div[2]/div/div[1]/div/div[4]/div/label[1]/div/span[2]/span/span")
+
     public WebElement nonStopFilter;
 
 

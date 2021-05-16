@@ -34,8 +34,9 @@ public class MakeMyTripHomePageActions {
 
 
         Thread.sleep(1000);
-        //makeMyTripHomePageLocator.fromCity.click();
-        WebHelper.actionClick(driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/label")));
+        //makeMyTripHomePageLocator.fromty.click();
+        Actions action=new Actions(driver);
+        action.moveToElement(driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/label"))).click().build().perform();
         Thread.sleep(3000);
         makeMyTripHomePageLocator.fromCityTextbox.sendKeys("Bengaluru");
         Thread.sleep(2000);
@@ -56,7 +57,8 @@ public class MakeMyTripHomePageActions {
     public MakeMyTripBookingPageActions clickSubmitButton() throws InterruptedException {
 
         Assert.assertTrue(makeMyTripHomePageLocator.searchButton.isDisplayed());
-        WebHelper.executorClick(makeMyTripHomePageLocator.searchButton);
+        JavascriptExecutor javascriptExecutor = (JavascriptExecutor)driver;
+        javascriptExecutor.executeScript("arguments[0].click()", makeMyTripHomePageLocator.searchButton);
         Thread.sleep(2000);
         return new MakeMyTripBookingPageActions(driver);
     }

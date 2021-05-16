@@ -17,7 +17,7 @@ import util.WebHelper;
 
 
 
-@CucumberOptions(features = "src/test/resources/Feature/", glue = { "stepdef" },tags = {"@parallal"},
+@CucumberOptions(features = "src/test/resources/Feature/", glue = { "stepdef" },tags = {"@1"},
         plugin = { "pretty",
                 "html:target/cucumber-reports/cucumber-pretty", "json:target/cucumber-reports/CucumberTestReport.JSON" },monochrome = true)
 
